@@ -38,7 +38,6 @@
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		4549570F234F6B6C00A62019 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4549570E234F6B6C00A62019 /* NotificationCenter.framework */; };
 		45495712234F6B6C00A62019 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45495711234F6B6C00A62019 /* TodayViewController.swift */; };
-		45495715234F6B6C00A62019 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45495713234F6B6C00A62019 /* MainInterface.storyboard */; };
 		45495719234F6B6C00A62019 /* widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4549570D234F6B6C00A62019 /* widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		45495785234F6BEF00A62019 /* SVGCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4549574E234F6BEF00A62019 /* SVGCache.swift */; };
 		45495786234F6BEF00A62019 /* SVGParserSupportedElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45495750234F6BEF00A62019 /* SVGParserSupportedElements.swift */; };
@@ -89,6 +88,10 @@
 		454957B3234F6BEF00A62019 /* SVGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45495782234F6BEF00A62019 /* SVGView.swift */; };
 		454957B4234F6BEF00A62019 /* NSBezierPath+CrossPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45495783234F6BEF00A62019 /* NSBezierPath+CrossPlatform.swift */; };
 		454957B5234F6BEF00A62019 /* CrossPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45495784234F6BEF00A62019 /* CrossPlatform.swift */; };
+		454957B7234F770200A62019 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 454957B6234F770200A62019 /* Media.xcassets */; };
+		454957C6234FB91400A62019 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454957C4234FB91400A62019 /* MainInterface.storyboard */; };
+		45E26F0923507B2200EF654A /* bike-frame.svg in Resources */ = {isa = PBXBuildFile; fileRef = 45E26F0823507B2200EF654A /* bike-frame.svg */; };
+		45E26F0C23507C1100EF654A /* Pictures.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 45E26EDD23507A2F00EF654A /* Pictures.bundle */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
@@ -341,6 +344,13 @@
 			remoteGlobalIDString = ED296FEE214C9CF800B7C4FE;
 			remoteInfo = "jsiexecutor-tvOS";
 		};
+		45E26F0A23507B7A00EF654A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45E26EDC23507A2F00EF654A;
+			remoteInfo = Pictures;
+		};
 		5E9157321DD0AC6500FF2AA8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */;
@@ -418,7 +428,6 @@
 		4549570D234F6B6C00A62019 /* widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = widget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		4549570E234F6B6C00A62019 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		45495711234F6B6C00A62019 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
-		45495714234F6B6C00A62019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		45495716234F6B6C00A62019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4549574E234F6BEF00A62019 /* SVGCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVGCache.swift; sourceTree = "<group>"; };
 		45495750234F6BEF00A62019 /* SVGParserSupportedElements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVGParserSupportedElements.swift; sourceTree = "<group>"; };
@@ -469,6 +478,11 @@
 		45495782234F6BEF00A62019 /* SVGView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVGView.swift; sourceTree = "<group>"; };
 		45495783234F6BEF00A62019 /* NSBezierPath+CrossPlatform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSBezierPath+CrossPlatform.swift"; sourceTree = "<group>"; };
 		45495784234F6BEF00A62019 /* CrossPlatform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossPlatform.swift; sourceTree = "<group>"; };
+		454957B6234F770200A62019 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		454957C5234FB91400A62019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		45E26EDD23507A2F00EF654A /* Pictures.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pictures.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		45E26EDF23507A2F00EF654A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45E26F0823507B2200EF654A /* bike-frame.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "bike-frame.svg"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
@@ -671,10 +685,11 @@
 		45495710234F6B6C00A62019 /* widget */ = {
 			isa = PBXGroup;
 			children = (
+				454957C4234FB91400A62019 /* MainInterface.storyboard */,
 				4549574B234F6BEF00A62019 /* SwiftSVG */,
 				45495711234F6B6C00A62019 /* TodayViewController.swift */,
-				45495713234F6B6C00A62019 /* MainInterface.storyboard */,
 				45495716234F6B6C00A62019 /* Info.plist */,
+				454957B6234F770200A62019 /* Media.xcassets */,
 			);
 			path = widget;
 			sourceTree = "<group>";
@@ -799,6 +814,15 @@
 			path = "SVG Extensions";
 			sourceTree = "<group>";
 		};
+		45E26EDE23507A2F00EF654A /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				45E26F0823507B2200EF654A /* bike-frame.svg */,
+				45E26EDF23507A2F00EF654A /* Info.plist */,
+			);
+			path = Pictures;
+			sourceTree = "<group>";
+		};
 		5E91572E1DD0AC6500FF2AA8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -852,6 +876,7 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* testWidgetSwitfTests */,
 				45495710234F6B6C00A62019 /* widget */,
+				45E26EDE23507A2F00EF654A /* Pictures */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 			);
@@ -868,6 +893,7 @@
 				2D02E47B1E0B4A5D006451C7 /* testWidgetSwitf-tvOS.app */,
 				2D02E4901E0B4A5D006451C7 /* testWidgetSwitf-tvOSTests.xctest */,
 				4549570D234F6B6C00A62019 /* widget.appex */,
+				45E26EDD23507A2F00EF654A /* Pictures.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -969,11 +995,27 @@
 			buildRules = (
 			);
 			dependencies = (
+				45E26F0B23507B7A00EF654A /* PBXTargetDependency */,
 			);
 			name = widget;
 			productName = widget;
 			productReference = 4549570D234F6B6C00A62019 /* widget.appex */;
 			productType = "com.apple.product-type.app-extension";
+		};
+		45E26EDC23507A2F00EF654A /* Pictures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45E26F0723507A2F00EF654A /* Build configuration list for PBXNativeTarget "Pictures" */;
+			buildPhases = (
+				45E26EDB23507A2F00EF654A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pictures;
+			productName = Pictures;
+			productReference = 45E26EDD23507A2F00EF654A /* Pictures.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -1005,6 +1047,11 @@
 						TestTargetID = 2D02E47A1E0B4A5D006451C7;
 					};
 					4549570C234F6B6C00A62019 = {
+						CreatedOnToolsVersion = 10.3;
+						DevelopmentTeam = PE3XZPNW4G;
+						ProvisioningStyle = Automatic;
+					};
+					45E26EDC23507A2F00EF654A = {
 						CreatedOnToolsVersion = 10.3;
 						DevelopmentTeam = PE3XZPNW4G;
 						ProvisioningStyle = Automatic;
@@ -1080,6 +1127,7 @@
 				2D02E47A1E0B4A5D006451C7 /* testWidgetSwitf-tvOS */,
 				2D02E48F1E0B4A5D006451C7 /* testWidgetSwitf-tvOSTests */,
 				4549570C234F6B6C00A62019 /* widget */,
+				45E26EDC23507A2F00EF654A /* Pictures */,
 			);
 		};
 /* End PBXProject section */
@@ -1382,8 +1430,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45E26F0C23507C1100EF654A /* Pictures.bundle in Resources */,
 				454957A4234F6BEF00A62019 /* cssColorNames.json in Resources */,
-				45495715234F6B6C00A62019 /* MainInterface.storyboard in Resources */,
+				454957C6234FB91400A62019 /* MainInterface.storyboard in Resources */,
+				454957B7234F770200A62019 /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45E26EDB23507A2F00EF654A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E26F0923507B2200EF654A /* bike-frame.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1529,6 +1587,11 @@
 			target = 4549570C234F6B6C00A62019 /* widget */;
 			targetProxy = 45495717234F6B6C00A62019 /* PBXContainerItemProxy */;
 		};
+		45E26F0B23507B7A00EF654A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45E26EDC23507A2F00EF654A /* Pictures */;
+			targetProxy = 45E26F0A23507B7A00EF654A /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -1541,10 +1604,10 @@
 			path = testWidgetSwitf;
 			sourceTree = "<group>";
 		};
-		45495713234F6B6C00A62019 /* MainInterface.storyboard */ = {
+		454957C4234FB91400A62019 /* MainInterface.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				45495714234F6B6C00A62019 /* Base */,
+				454957C5234FB91400A62019 /* Base */,
 			);
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
@@ -1799,6 +1862,62 @@
 			};
 			name = Release;
 		};
+		45E26EE023507A2F00EF654A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = PE3XZPNW4G;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = Pictures/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruben.Pictures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		45E26EE123507A2F00EF654A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = PE3XZPNW4G;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = Pictures/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruben.Pictures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		83CBBA201A601CBA00E9B192 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1942,6 +2061,15 @@
 			buildConfigurations = (
 				4549571A234F6B6C00A62019 /* Debug */,
 				4549571B234F6B6C00A62019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45E26F0723507A2F00EF654A /* Build configuration list for PBXNativeTarget "Pictures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45E26EE023507A2F00EF654A /* Debug */,
+				45E26EE123507A2F00EF654A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
